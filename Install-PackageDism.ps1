@@ -20,5 +20,5 @@ Start-Process "DISM" -Verb runas -ArgumentList $ArgumentList -Wait  -WindowStyle
 #UnMount ISO disk
 Dismount-DiskImage -ImagePath $FullPathIso
 
-#Remove ISO disk
+#Remove ISO file
 Remove-Item $FullPathIso
